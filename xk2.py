@@ -99,8 +99,8 @@ def fun() :
 	# print(heads)
 	# print(r1.status, r1.reason, r1.msg)
 	params = urllib.parse.urlencode({
-		"username" : "20145477",
-		"password" : "5606595222",
+		"username" : "",
+		"password" : "",
 		"verifyCode" : verifyCode
 	        })
 	heads = {
