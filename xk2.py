@@ -99,8 +99,8 @@ def fun() :
 	# print(heads)
 	# print(r1.status, r1.reason, r1.msg)
 	params = urllib.parse.urlencode({
-		"username" : "",
-		"password" : "",
+		"username" : "20145477",
+		"password" : "5606595222",
 		"verifyCode" : verifyCode
 	        })
 	heads = {
@@ -319,12 +319,12 @@ def fun() :
 		"Cookie" : cookie,
 		"X-Requested-With" : "XMLHttpRequest"
 	}
-	conn.request("GET", "/xsxk/xkOper.xk?method=handleQxgxk&jxbid=201520162311006501&glJxbid=", None, heads)
+	conn.request("GET", "/xsxk/xkOper.xk?method=handleTjxk&jxbid=201620171066245601&glJxbid=", None, heads)
 	r1 = conn.getresponse()
 	print(heads)
 	print(r1.status, r1.reason, r1.read().decode(), r1.msg)
 	conn.close()
-while(True) :
-    fun()
-    time.sleep(1)
-
+#while(True) :
+#    fun()
+#    time.sleep(0.1)
+fun()

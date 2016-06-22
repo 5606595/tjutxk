@@ -1,2 +1,2 @@
-pillow
-pytesseract
+pillow3.2
+pytesseract0.1.6
